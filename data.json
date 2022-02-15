@@ -1,0 +1,58 @@
+{
+    "quiz": {
+        "sport": {
+            "q1": {
+                "question": "5 + 7 = ?",
+                "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "13"
+                ],
+                "answer": "12"
+            }
+        },
+        "maths": {
+            "q1": {
+                "question": "5 + 7 = ?",
+                "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "13"
+                ],
+                "answer": "12"
+            },
+            "q2": {
+                "question": "12 - 8 = ?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "answer": "4"
+            },
+            "q3": {
+                "question": "Which of the following property is used to set the color of a text?",
+                "options": [
+                    "color",
+                    "direction",
+                    "letter-spacing",
+                    "word-spacing"
+                ],
+                "answer": "color"
+            }, 
+            "q4": {
+                "question": " Which of the following property specifies whether a border should be solid, dashed line, double line, or one of the other possible values?",
+                "options": [
+                    ":border-color",
+                    ":border-style",
+                    ":border-width",
+                    ":border-bottom-color"
+                ],
+                "answer": ":border-style"
+            }
+        }
+    }
+}

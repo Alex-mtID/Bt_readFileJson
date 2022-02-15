@@ -1,0 +1,109 @@
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: fixed;
+    z-index: -1; */
+}   
+
+body::before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+}
+
+button {
+   margin-bottom: 2rem;
+   padding: 0.4rem;
+   width: 100%;
+   background-color: red;
+   color: #fff;
+   border: none;
+   font-size: 20px;
+}
+
+h1 {
+    font-size: 6vw;
+    /* -webkit-text-stroke: 1px #fff; */
+    text-shadow: 10px 0 black;
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2.00px; 
+    padding: 2rem;
+}
+
+.question {
+    max-width: 600px;
+    height: auto;
+    background-color: red;
+    color: #fff;
+    padding: 1rem 3rem;
+    line-height: 1.6rem;
+    font-weight: bold;
+}
+
+.answer {
+    height: 2rem;
+    background-color: #fff;
+    color: red;
+    line-height: 2rem;
+    margin: .4rem 0;
+}
+
+.answer span {
+    min-width: 2rem ;
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    margin-right: 0.4rem;
+    padding: 0 0.4rem;
+}
+
+
+li.answer:hover span, 
+.answer.active span {
+    background-color: #62bb90;
+}
+
+li.answer:hover, 
+.answer.active{
+    color: #62bb90;
+}
+
+li.answer :hover {
+    cursor: pointer;
+}
+
+button:hover, 
+button.active {
+    cursor: pointer;
+    background-color: #62bb90;
+}
+
+/* idiot things :) ============================= */
